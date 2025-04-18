@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <center>
+  <div class="caixa">
+  <h1>Quais são suas musicas!!!</h1>
+  </center>
+  </div>
+  <hr>
+  <center>
+  <div id="input-container">
+     <input type="text" name="cantor-input" id="cantor-input" placeholder="digite o nome do cantores">
+            <input type="text" name="musicas-input" id="musicas-input" placeholder="digite a musicas">
+              <input type="text" name="genero-input" id="genero-input" placeholder="digite o genero Musical">
+            <button id="add-btn">Adicionar</button>
+            </center>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Cantor</th>
+        <th>Musica</th>
+        <th>genero musical</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+     <div id="update-container">
+            <input type="text " name="update-cantor-input" id="update-cantor-input">
+            <input type="text " name="update-musica-input" id="update-musica-input">
+            <input type="text " name="update-genero-input" id="update-genero-input">
+            <button id="update-btn">Atualizar</button>
+            <button id="cancel-btn">cancelar</button>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

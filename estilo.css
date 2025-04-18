@@ -1,0 +1,87 @@
+h1{
+	
+	color:blue;
+	text-align: center;
+	font-size: 36px;
+}
+.caixa{
+	height: 100px;
+	padding: 1px;
+	border:2px solid #333;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: white;
+	width: fit-content;
+	margin: 20px;
+	text-align: center;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1)
+}
+hr{
+	border: none;
+	height: 10px;
+	background-color: #333;
+	margin: 20px;
+}
+#input-container {
+    margin-bottom: 20px;
+}
+#cantor-input,
+#musicas-input,
+#genero-input,
+#update-cantor-input,
+#update-musica-input
+#update-genero-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+button:hover{
+    background-color: bisque;
+}
+table{
+    border-color: collapse;
+    margin-bottom: 20px;
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #4CAF50;
+    color:white;
+}
+#update-btn{
+    background-color: #2196f3;
+}
+#cancel-btn{
+    background-color: #f44336;
+}
+.edit-btn{
+    background-color: #ffc107;
+}
+.delete-btn{
+    background-color: #dc3545;
+    margin-left: 10px;
+}
+#update-container{
+    display: none;
+    margin-top: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
